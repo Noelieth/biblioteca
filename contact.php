@@ -131,7 +131,7 @@
 	                <div class="col-sm-12 col-md-12 col-lg-10 contact-address">
 	                    <h3>Nuestra ubicación</h3>
 	                    <div class="map">
-                            <iframe id="player" type="text/html" height="295" src="http://www.youtube.com/embed/zI9xcfYmCE?enablejsapi=1&origin=http://example.com" frameborder="0"></iframe>
+                            <iframe width="640" height="295" src="https://www.youtube.com/embed/fzI9xcfYmCE" frameborder="0" allowfullscreen></iframe>
                         </div>
 	                </div>
                     <div class="col-sm-6 contact-address">
