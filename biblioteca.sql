@@ -39,7 +39,7 @@ CREATE TABLE `biblioteca`.`noticia` (
 -- Estructura de tabla para la tabla `usuario`
 --
 
-CREATE TABLE `database`.`usuario` (
+CREATE TABLE `biblioteca`.`usuario` (
   `id` int(11) NOT NULL auto_increment,
   `nombre` varchar(200) default NULL,
   `apellido` varchar(200) default NULL,
@@ -56,4 +56,4 @@ CREATE TABLE `database`.`usuario` (
 --
 
 INSERT INTO `biblioteca`.`usuario` (`id`, `nombre`, `apellido`, `usuario`, `password`, `email`, `nivel`, `Timestamp`) VALUES
-(1, 'Noelieth', 'Longart', 'noe', '1234', 'noeliethmariana@gmail.com', 1, '2016-04-13 22:06:04');
+(1, 'Noelieth', 'Longart', 'noelieth', '1234', 'noeliethmariana@gmail.com', 1, '2016-04-13 22:06:04');
