@@ -140,13 +140,13 @@
                                         <li><p><a href="historia-universidad.php"><i class="fa fa-chevron-right"></i>RESEÑA HISTÓRICA</a></p></li>
                                         <li><p><a href="ubicacion-universidad.php"><i class="fa fa-chevron-right"></i>UBICACIÓN GEOGRÁFICA</a></p></li>
                                     </ul>
-                                    <li><h3><a href=""><i class="fa fa-chevron-right"></i>Repositorios</a></h3></li>
+                                    <li><h3><a href="repositorios.php"><i class="fa fa-chevron-right"></i>Repositorios</a></h3></li>
                                     <ul>
-                                        <li><p><a href=""><i class="fa fa-chevron-right"></i>VENEZUELA</a></p></li>
-                                        <li><p><a href=""><i class="fa fa-chevron-right"></i>HISPANOS</a></p></li>
+                                        <li><p><a href="repositorios.php"><i class="fa fa-chevron-right"></i>VENEZUELA</a></p></li>
+                                        <li><p><a href="repositorios.php"><i class="fa fa-chevron-right"></i>HISPANOS</a></p></li>
                                             <ul>
-                                                <li><p><a href=""><i class="fa fa-chevron-right"></i>ESPAÑA</a></p></li>
-                                                <li><p><a href=""><i class="fa fa-chevron-right"></i>ARGENTINA</a></p></li>
+                                                <li><p><a href="repositorios.php"><i class="fa fa-chevron-right"></i>ESPAÑA</a></p></li>
+                                                <li><p><a href="repositorios.php"><i class="fa fa-chevron-right"></i>ARGENTINA</a></p></li>
                                             </ul>
                                     </ul>
                                   </ul>  
@@ -154,25 +154,25 @@
                         <div class="col-sm-4 col-md-4 sitemap-box">
                             <ul> 
                                 <ul>
-                                <li><p><a href=""><i class="fa fa-chevron-right"></i>CHILE</a></p></li>
-                                <li><p><a href=""><i class="fa fa-chevron-right"></i>COLOMBIA</a></p></li>
-                                <li><p><a href=""><i class="fa fa-chevron-right"></i>ECUADOR</a></p></li>
-                                <li><p><a href=""><i class="fa fa-chevron-right"></i>EL SALVADOR</a></p></li>
-                                <li><p><a href=""><i class="fa fa-chevron-right"></i>MÉXICO</a></p></li>
-                                <li><p><a href=""><i class="fa fa-chevron-right"></i>PERÚ</a></p></li>
-                                <li><p><a href=""><i class="fa fa-chevron-right"></i>OTROS</a></p></li>
+                                <li><p><a href="repositorios.php"><i class="fa fa-chevron-right"></i>CHILE</a></p></li>
+                                <li><p><a href="repositorios.php"><i class="fa fa-chevron-right"></i>COLOMBIA</a></p></li>
+                                <li><p><a href="repositorios.php"><i class="fa fa-chevron-right"></i>ECUADOR</a></p></li>
+                                <li><p><a href="repositorios.php"><i class="fa fa-chevron-right"></i>EL SALVADOR</a></p></li>
+                                <li><p><a href="repositorios.php"><i class="fa fa-chevron-right"></i>MÉXICO</a></p></li>
+                                <li><p><a href="repositorios.php"><i class="fa fa-chevron-right"></i>PERÚ</a></p></li>
+                                <li><p><a href="repositorios.php"><i class="fa fa-chevron-right"></i>OTROS</a></p></li>
                                 </ul>
-                                <li><p><a href=""><i class="fa fa-chevron-right"></i>OTROS IDIOMAS</a></p></li>
+                                <li><p><a href="repositorios.php"><i class="fa fa-chevron-right"></i>OTROS IDIOMAS</a></p></li>
                                     <ul>
-                                        <li><p><a href=""><i class="fa fa-chevron-right"></i>PORTUGUÉS</a></p></li>
+                                        <li><p><a href="repositorios.php"><i class="fa fa-chevron-right"></i>PORTUGUÉS</a></p></li>
                                         <ul>
-                                            <li><p><a href=""><i class="fa fa-chevron-right"></i>BRASIL</a></p></li>
-                                            <li><p><a href=""><i class="fa fa-chevron-right"></i>PORTUGAL</a></p></li>
+                                            <li><p><a href="repositorios.php"><i class="fa fa-chevron-right"></i>BRASIL</a></p></li>
+                                            <li><p><a href="repositorios.php"><i class="fa fa-chevron-right"></i>PORTUGAL</a></p></li>
                                         </ul>
-                                        <li><p><a href=""><i class="fa fa-chevron-right"></i>INGLÉS</a></p></li>
+                                        <li><p><a href="repositorios.php"><i class="fa fa-chevron-right"></i>INGLÉS</a></p></li>
                                         <ul>
-                                            <li><p><a href=""><i class="fa fa-chevron-right"></i>USA</a></p></li>
-                                            <li><p><a href=""><i class="fa fa-chevron-right"></i>INGLATERRA</a></p></li>
+                                            <li><p><a href="repositorios.php"><i class="fa fa-chevron-right"></i>USA</a></p></li>
+                                            <li><p><a href="repositorios.php"><i class="fa fa-chevron-right"></i>INGLATERRA</a></p></li>
                                         </ul>
                                     </ul>
                             </ul>
