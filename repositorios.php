@@ -133,7 +133,7 @@
             <div class="box">
                 <ul class="db-filter">
                     <li><a class="btn btn-primary active" href="#" data-filter="*">Todos</a></li>
-                    <li><a class="btn btn-primary" href="#" data-filter=".nacionales">Venezuela</a></li>
+                    <li><a class="btn btn-primary" href="#" data-filter=".venezuela">Venezuela</a></li>
                     <li class="dropdown hispano">
                       <a href="#" data-filter=".espania" class="dropdown-toggle btn btn-primary" data-toggle="dropdown" data-hover="dropdown" data-delay="1000">
                           Hispanos<span class="caret"></span>
@@ -1164,7 +1164,7 @@
                                     <a class="preview btn btn-primary" href="http://hedatuz.euskomedia.org/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
                             </div>
-                            <h5>DATUZ.</h5>        
+                            <h5>HEDATUZ.</h5>        
                         </div>         
                     </li><!--/.bd-item-->
                     <li class="db-item espania">
@@ -1274,7 +1274,7 @@
                                     <a class="preview btn btn-primary" href="http://repositori.upf.edu/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
                             </div>
-                            <h5>UPF.</h5>        
+                            <h5>Repositorio UPF.</h5>        
                         </div>         
                     </li><!--/.bd-item-->
                     <li class="db-item espania">
@@ -1296,7 +1296,7 @@
                                     <a class="preview btn btn-primary" href="http://www.tdx.cat/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
                             </div>
-                            <h5>TDR.</h5>        
+                            <h5>Tesis Doctorales en Red.</h5>        
                         </div>         
                     </li><!--/.bd-item-->
                     <li class="db-item espania">
@@ -1362,7 +1362,7 @@
                                     <a class="preview btn btn-primary" href="http://ddfv.ufv.es/xmlui/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
                             </div>
-                            <h5>UFV.</h5>        
+                            <h5>Repositorio Digital UFV.</h5>        
                         </div>         
                     </li><!--/.bd-item-->
                     <li class="db-item espania">
@@ -1384,7 +1384,7 @@
                                     <a class="preview btn btn-primary" href="http://oa.upm.es/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
                             </div>
-                            <h5>Politécnica.</h5>        
+                            <h5>Archivo Digital UPM.</h5>        
                         </div>         
                     </li><!--/.bd-item-->
                     <li class="db-item espania">
@@ -1450,7 +1450,7 @@
                                     <a class="preview btn btn-primary" href="http://ojs.diffundit.com/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
                             </div>
-                            <h5>OJS.</h5>        
+                            <h5>Diffundit.</h5>        
                         </div>         
                     </li><!--/.bd-item-->
                     <li class="db-item espania">
@@ -1579,7 +1579,7 @@
                             <div class="db-image">
                                 <img src="archivos/img/repositorios/item.png">
                                 <div class="overlay">
-                                    <a class="preview btn btn-primary" href="http://coleccionesdigitales.bibna.gub.uy/greenstone/cgi-bin/library.cgi?e=d-01000-00---off-0primeros--00-1----0-10-0---0---0direct-10---4-------0-1l--11-es-50---20-about---00-3-1-00-0-0-11-1-0utfZz-8-00&a=p&p=about#"><i class="fa fa-link"></i> Visitar</a>
+                                    <a class="preview btn btn-primary" href="http://bibna.gub.uy/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
                             </div>
                             <h5>BIBNA.</h5>       
