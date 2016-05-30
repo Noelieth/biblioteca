@@ -91,7 +91,7 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class = "banner">
-
+                        <img src="archivos/img/banner.png"/>
                         </div>
                     </div>
                 </div>

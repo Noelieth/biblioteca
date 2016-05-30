@@ -90,7 +90,7 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class = "banner">
-
+                        <img src="archivos/img/banner.png"/>
                         </div>
                     </div>
                 </div>
@@ -165,7 +165,7 @@
                     <li class="db-item colombia">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/1_colombia.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://manglar.uninorte.edu.co/"><i class="fa fa-link"></i> Visitar</a>             
                                 </div>
@@ -177,7 +177,7 @@
                     <li class="db-item colombia">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/2_colombia.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://repository.eia.edu.co/"><i class="fa fa-link"></i> Visitar</a>  
                                 </div>
@@ -189,7 +189,7 @@
                     <li class="db-item nacional colombia">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/3_colombia.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://repositorio.utp.edu.co/dspace/"><i class="fa fa-link"></i> Visitar</a>        
                                 </div> 
@@ -201,7 +201,7 @@
                     <li class="db-item colombia">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/4_colombia.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://repository.ucatolica.edu.co/"><i class="fa fa-link"></i> Visitar</a>          
                                 </div>   
@@ -213,7 +213,7 @@
                     <li class="db-item colombia">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/5_colombia.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://repository.javeriana.edu.co/"><i class="fa fa-link"></i> Visitar</a>          
                                 </div>  
@@ -224,7 +224,7 @@
                     <li class="db-item colombia">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/6_colombia.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://repository.cesa.edu.co/"><i class="fa fa-link"></i> Visitar</a>           
                                 </div>  
@@ -235,7 +235,7 @@
                     <li class="db-item colombia">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/7_colombia.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://repository.urosario.edu.co/"><i class="fa fa-link"></i> Visitar</a>          
                                 </div>  
@@ -246,7 +246,7 @@
                     <li class="db-item colombia">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png" alt="">
+                                <img src="archivos/img/repositorios/8_colombia.png" alt="">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://repository.unad.edu.co/"><i class="fa fa-link"></i> Visitar</a>           
                                 </div>   
@@ -257,7 +257,7 @@
                      <li class="db-item ecuador">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/9_ecuador.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://dspace.udla.edu.ec/"><i class="fa fa-link"></i> Visitar</a>           
                                 </div>   
@@ -268,7 +268,7 @@
                     <li class="db-item ecuador">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/10_ecuador.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://repositorio.iaen.edu.ec/"><i class="fa fa-link"></i> Visitar</a>           
                                 </div>   
@@ -279,7 +279,7 @@
                     <li class="db-item ecuador">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/11_ecuador.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://repositorio.usfq.edu.ec/"><i class="fa fa-link"></i> Visitar</a>           
                                 </div>   
@@ -290,7 +290,7 @@
                     <li class="db-item ecuador">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/12_ecuador.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://www.dspace.uce.edu.ec/"><i class="fa fa-link"></i> Visitar</a>           
                                 </div>   
@@ -301,7 +301,7 @@
                     <li class="db-item ecuador">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/13_ecuador.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://bibdigital.epn.edu.ec/"><i class="fa fa-link"></i> Visitar</a>           
                                 </div>   
@@ -312,7 +312,7 @@
                     <li class="db-item ecuador">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/14_ecuador.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://repositorio.ucsg.edu.ec/"><i class="fa fa-link"></i> Visitar</a>           
                                 </div>   
@@ -323,7 +323,7 @@
                     <li class="db-item ecuador">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/15_ecuador.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://dspace.ups.edu.ec/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -334,7 +334,7 @@
                     <li class="db-item ecuador">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/16_ecuador.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://dspace.espoch.edu.ec/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -345,7 +345,7 @@
                     <li class="db-item ecuador">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/17_ecuador.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://repositorio.uleam.edu.ec/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -356,7 +356,7 @@
                     <li class="db-item ecuador">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/18_ecuador.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://repositorio.uasb.edu.ec/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -367,7 +367,7 @@
                     <li class="db-item ecuador">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/19_ecuador.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://www.flacsoandes.edu.ec/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -378,7 +378,7 @@
                     <li class="db-item peru">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/20_peru.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://cybertesis.uni.edu.pe/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -389,7 +389,7 @@
                     <li class="db-item espaniol peru">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/21_peru.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://ateneo.unmsm.edu.pe/ateneo/index.jsp"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -400,7 +400,7 @@
                     <li class="db-item peru">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/22_peru.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://www.urp.edu.pe/cybertesis/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -411,7 +411,7 @@
                     <li class="db-item peru">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/23_peru.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://repositorioacademico.upc.edu.pe/upc/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -422,7 +422,7 @@
                     <li class="db-item peru">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/24_peru.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://tesis.usat.edu.pe/jspui/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -433,7 +433,7 @@
                     <li class="db-item peru">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/25_peru.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://pirhua.udep.edu.pe/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -444,7 +444,7 @@
                     <li class="db-item venezuela">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/26_venezuela.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://dspace.bolivarium.usb.ve/dspace/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -455,7 +455,7 @@
                     <li class="db-item venezuela">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/27_venezuela.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://miunespace.une.edu.ve/jspui/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -466,7 +466,7 @@
                     <li class="db-item venezuela">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/28_venezuela.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://repositorio.ucla.edu.ve/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -477,7 +477,7 @@
                     <li class="db-item venezuela">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/29_venezuela.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://www.repositorium.org/repositorium/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -499,7 +499,7 @@
                     <li class="db-item venezuela">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/31_venezuela.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://ri.biblioteca.udo.edu.ve/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -510,7 +510,7 @@
                     <li class="db-item venezuela">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/32_venezuela.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://tesis.luz.edu.ve/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -521,7 +521,7 @@
                     <li class="db-item argentina">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/33_argentina.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://digital.bl.fcen.uba.ar/gsdl-282/cgi-bin/library.cgi"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -532,7 +532,7 @@
                     <li class="db-item argentina">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/34_argentina.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://tesis.bibdigital.uccor.edu.ar/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -543,7 +543,7 @@
                     <li class="db-item argentina">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/35_argentina.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://bdigital.uncu.edu.ar/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -554,7 +554,7 @@
                     <li class="db-item argentina">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/36_argentina.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://rephip.unr.edu.ar/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -565,7 +565,7 @@
                     <li class="db-item argentina">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/37_argentina.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://repositorio.udesa.edu.ar/jspui/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -576,7 +576,7 @@
                     <li class="db-item argentina">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/38_argentina.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://biblioteca.clacso.edu.ar/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -587,7 +587,7 @@
                     <li class="db-item argentina">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/39_argentina.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://bibliotecadigital.uca.edu.ar/greenstone/cgi-bin/library.cgi"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -598,7 +598,7 @@
                     <li class="db-item argentina">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/40_argentina.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://sedici.unlp.edu.ar/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -609,7 +609,7 @@
                     <li class="db-item argentina">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/41_argentina.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://ricabib.cab.cnea.gov.ar/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -620,7 +620,7 @@
                     <li class="db-item argentina">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/42_argentina.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://ediblio.unsa.edu.ar/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -631,7 +631,7 @@
                     <li class="db-item chile">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/43_chile.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://repositoriodigital.uct.cl/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -642,7 +642,7 @@
                     <li class="db-item chile">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/44_chile.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://cybertesis.uach.cl/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -653,7 +653,7 @@
                     <li class="db-item chile">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/45_chile.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://dspace2.conicyt.cl/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -664,7 +664,7 @@
                     <li class="db-item chile">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/46_chile.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://repositorio.unab.cl/xmlui/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -675,7 +675,7 @@
                     <li class="db-item chile">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/47_chile.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://www.bibliotecamuseodelamemoria.cl/gsdl/cgi-bin/library.cgi?l=es"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -686,7 +686,7 @@
                     <li class="db-item mexico">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/48_mexico.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://www.rad.unam.mx/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -697,7 +697,7 @@
                     <li class="db-item mexico">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/49_mexico.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://catedra.ruv.itesm.mx/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -708,7 +708,7 @@
                     <li class="db-item mexico">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/50_mexico.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://eprints.uanl.mx/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -719,7 +719,7 @@
                     <li class="db-item mexico">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/51_mexico.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://quijote.biblio.iteso.mx/catia/coneicc/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -730,7 +730,7 @@
                     <li class="db-item mexico">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/52_mexico.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://www.crea.udg.mx/index.jsp"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -741,7 +741,7 @@
                     <li class="db-item mexico">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/53_mexico.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://cdigital.uv.mx/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -763,7 +763,7 @@
                     <li class="db-item mexico">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/55_mexico.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://www.remeri.org.mx/portal/index.html"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -774,7 +774,7 @@
                     <li class="db-item salvador">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/56_salvador.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://biblioteca.utec.edu.sv:8080/jspui/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -785,7 +785,7 @@
                     <li class="db-item salvador">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/57_salvador.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://rd.udb.edu.sv:8080/jspui/?locale=es"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -796,7 +796,7 @@
                     <li class="db-item salvador">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/58_salvador.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://www.redicces.org.sv/jspui/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -807,7 +807,7 @@
                     <li class="db-item salvador">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/59_salvador.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://ri.ues.edu.sv/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -818,7 +818,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/60_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://riuma.uma.es/xmlui"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -829,7 +829,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/61_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://digibug.ugr.es/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -840,7 +840,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/62_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://ruja.ujaen.es/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -851,7 +851,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/63_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://rabida.uhu.es/dspace/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -862,7 +862,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/64_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://repositorio.ual.es/jspui/#.VzeVFfnhC70"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -873,7 +873,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/65_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://repositorio.racordoba.es/jspui/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -884,7 +884,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/66_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://www.repositoriosalud.es/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -895,7 +895,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/67_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://www.bibliotecavirtualdeandalucia.es//opencms"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -906,7 +906,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/68_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://dspace.unia.es/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -917,7 +917,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/69_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="https://ruidera.uclm.es/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -928,7 +928,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/70_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://repositorio.upct.es/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -939,7 +939,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/71_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="https://digitum.um.es/xmlui/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -950,7 +950,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/72_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://rua.ua.es/dspace/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -961,7 +961,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/73_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://bivaldi.gva.es/es/cms/elemento.cmd?id=estaticos/paginas/inicio.html"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -972,7 +972,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/74_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://ibdigital.uib.es/greenstone/cgi-bin/library.cgi"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -983,7 +983,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/75_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="https://riunet.upv.es/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -994,7 +994,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/76_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://repositori.uji.es/xmlui/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1005,7 +1005,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/77_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://gredos.usal.es/jspui/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1016,7 +1016,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/78_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://uvadoc.uva.es/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1027,7 +1027,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/79_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://bibliotecadigital.jcyl.es/i18n/estaticos/contenido.cmd?pagina=estaticos/inicio"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1038,7 +1038,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/80_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="https://buleria.unileon.es/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1049,7 +1049,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/81_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://ria.asturias.es/RIA/index.jsp"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1060,7 +1060,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/82_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://www.galiciana.bibliotecadegalicia.xunta.es/gl/estaticos/contenido.cmd?pagina=estaticos/presentacion"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1071,7 +1071,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/83_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://dspace.usc.es/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1082,7 +1082,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/84_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://ruc.udc.es/dspace/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1093,7 +1093,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/85_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://avalia-t.sergas.es/Paxinas/web.aspx"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1104,7 +1104,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/86_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://repositorio.unican.es/xmlui/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1115,7 +1115,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/87_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://bibliotecavirtual.larioja.org/bvrioja/es/estaticos/contenido.cmd?pagina=estaticos/presentacion"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1126,7 +1126,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/88_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://www.memoriadigitalvasca.es/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1137,7 +1137,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/89_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://www.liburuklik.euskadi.net/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1148,7 +1148,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/90_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://www.bilbao.net/bld"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1159,7 +1159,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/91_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://hedatuz.euskomedia.org/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1170,7 +1170,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/92_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="https://addi.ehu.es/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1181,7 +1181,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/93_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://edtb.euskomedia.org/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1192,7 +1192,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/94_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://dadun.unav.edu/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1203,7 +1203,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/95_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://academica-e.unavarra.es/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1214,7 +1214,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/96_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://repositori.udl.cat/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1225,7 +1225,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/97_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://citarea.cita-aragon.es/citarea/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1236,7 +1236,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/98_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://www.cortesaragon.es/fondoHistorico/i18n/estaticos/contenido.cmd?pagina=estaticos/presentacion"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1247,7 +1247,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/99_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://diobma.udg.edu/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1258,7 +1258,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/100_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://zaguan.unizar.es/?ln=en"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1269,7 +1269,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/101_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://repositori.upf.edu/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1280,7 +1280,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/102_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://www.intangiblecapital.org/index.php/ic"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1291,7 +1291,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/103_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://www.tdx.cat/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1302,7 +1302,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/104_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://diposit.ub.edu/dspace/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1313,7 +1313,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/105_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://ddd.uab.cat/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1324,7 +1324,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/106_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://upcommons.upc.edu/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1335,7 +1335,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/107_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://dspace.uah.es/dspace/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1346,7 +1346,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/108_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://abacus.universidadeuropea.es/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1357,7 +1357,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/109_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://ddfv.ufv.es/xmlui/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1368,7 +1368,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/110_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="https://repositorio.uam.es/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1379,7 +1379,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/111_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://oa.upm.es/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1390,7 +1390,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/112_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://www.larramendi.es/i18n/estaticos/contenido.cmd?pagina=estaticos/inicio"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1401,7 +1401,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/113_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://riberdis.cedd.net/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1412,7 +1412,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/114_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="https://www.fundacionmapfre.org/documentacion/publico/i18n/consulta/busqueda.cmd"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1423,7 +1423,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/115_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="https://www.fundacionmapfre.org/museoseg/es/estaticos/contenido.cmd?pagina=indice"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1434,7 +1434,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/116_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://bibliotecadigital.rah.es/dgbrah/i18n/estaticos/contenido.cmd?pagina=estaticos/presentacion"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1445,7 +1445,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/117_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://ojs.diffundit.com/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1456,7 +1456,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/118_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://www.memoriademadrid.es/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1467,7 +1467,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/119_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://travesia.mcu.es/portalnb/jspui/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1478,7 +1478,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/120_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://digital.march.es/ceacs-ir/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1489,7 +1489,7 @@
                     <li class="db-item espania">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/121_espania.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://bibliotecavirtual.ranm.es/ranm/es/estaticos/contenido.cmd?pagina=estaticos/presentacion"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1497,10 +1497,10 @@
                             <h5>Digibib.</h5>        
                         </div>         
                     </li><!--/.bd-item-->
-                    <li class="db-item otros cuba">
+                    <li class="db-item otroshispanos cuba">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/122_cuba.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://dspace.geotech.cu/jspui/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1508,10 +1508,10 @@
                             <h5>Repositorio de Información Geográfica.</h5>       
                         </div>         
                     </li><!--/.bd-item-->
-                    <li class="db-item otros puertorico">
+                    <li class="db-item otroshispanos puertorico">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/123_puertorico.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://repositorio.upr.edu:8080/jspui/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1519,10 +1519,10 @@
                             <h5>UPR.</h5>       
                         </div>         
                     </li><!--/.bd-item-->
-                    <li class="db-item otros guadalupe">
+                    <li class="db-item otroshispanos guadalupe">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/124_guadalupe.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://www.manioc.org/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1530,10 +1530,10 @@
                             <h5>Manioc.</h5>       
                         </div>         
                     </li><!--/.bd-item-->
-                    <li class="db-item otros costarica">
+                    <li class="db-item otroshispanos costarica">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/125_costarica.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://www.repositorio.una.ac.cr/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1541,10 +1541,10 @@
                             <h5>Universidad Nacional Costa Rica.</h5>       
                         </div>         
                     </li><!--/.bd-item-->
-                    <li class="db-item otros costarica">
+                    <li class="db-item otroshispanos costarica">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/126_costarica.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://www.kerwa.ucr.ac.cr/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1552,10 +1552,10 @@
                             <h5>Repositorio Kérwá.</h5>       
                         </div>         
                     </li><!--/.bd-item-->
-                    <li class="db-item otros costarica">
+                    <li class="db-item otroshispanos costarica">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/127_costarica.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://repositorio.uned.ac.cr/reuned/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1563,21 +1563,21 @@
                             <h5>ReUNED.</h5>       
                         </div>         
                     </li><!--/.bd-item-->
-                    <li class="db-item otros costarica">
+                    <li class="db-item otroshispanos costarica">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/128_costarica.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://bibliodigital.itcr.ac.cr/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
                             </div>
-                            <h5>ITCR.</h5>       
+                            <h5>TECnológico de Costa Rica.</h5>       
                         </div>         
                     </li><!--/.bd-item-->
-                    <li class="db-item otros urugay">
+                    <li class="db-item otroshispanos uruguay">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/129_uruguay.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://bibna.gub.uy/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   

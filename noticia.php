@@ -84,6 +84,7 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class = "banner">
+                        <img src="archivos/img/banner.png"/>
                         </div>
                     </div>
                 </div>
@@ -228,7 +229,7 @@
                   <div class="col-sm-2 col-md-2 footer-social wow fadeIn">
                       <a href="https://www.facebook.com/BibliotecaGeneralSucre"><i class="fa fa-facebook-square"></i></a>
                       <a href="#"><i class="fa fa-twitter-square"></i></a>
-                      <a href="#"><i class="fa fa-youtube-square"></i></a>
+                      <a href="https://www.youtube.com/channel/UCwlQ4IYLVr9bdGh_kKh9N9g"><i class="fa fa-youtube-square"></i></a>
                   </div>
                 </div>
             </div>

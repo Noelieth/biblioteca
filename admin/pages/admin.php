@@ -3,8 +3,8 @@
  ?>
  <?php
   include_once("../../conexion.php");
-  $tipo = $_GET['tipo'];
-  $op = $_GET['op'];
+  $tipo = isset($_GET['tipo']);
+  $op = isset($_GET['op']);
   if (($tipo == 'usuario') &&( $op == 'mostrar')) {
     $sql = "SELECT * from usuario";
 

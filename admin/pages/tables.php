@@ -189,7 +189,7 @@
                                                 <td> ".$a['email']."</td>
                                                 <td> ".$a['nivel']."</td>
                                                 <td> ".$a['Timestamp']."</td>
-                                                <td class='btn btn-success'><a href='registro.php?tipo=usuario&op=modificar&id=".$a['id']."'><i class='fa fa-pencil fa-2x'></i></a></td>
+                                                <td class='btn btn-success'><a href='modificarusuario.php?tipo=usuario&op=modificar&id=".$a['id']."'><i class='fa fa-pencil fa-2x'></i></a></td>
                                                 <td class='btn btn-danger'><a href='admin.php?tipo=usuario&op=eliminar&id=".$a['id']."'><i class='fa fa-times-circle fa-2x'></i></a></td>
                                             </tr>
                                         </tbody>";
@@ -236,7 +236,7 @@
                                                         <td> ".$a['cuerpo']."</td>
                                                         <td> ".$a['imagen']."</td>
                                                         <td> ".$a['fecha']."</td>
-                                                        <td class='btn btn-success'><a href='modificar.php?tipo=noticia&op=modificar&id=".$a['id']."'><i class='fa fa-pencil fa-2x'></i></a></td>
+                                                        <td class='btn btn-success'><a href='modificarnoticia.php?tipo=noticia&op=modificar&id=".$a['id']."'><i class='fa fa-pencil fa-2x'></i></a></td>
                                                         <td class='btn btn-danger'><a href='admin.php?tipo=noticia&op=eliminar&id=".$a['id']."'><i class='fa fa-times-circle fa-2x'></i></a></td>
                                                     </tr>
                                                 </tbody>";
