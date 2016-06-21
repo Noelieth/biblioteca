@@ -41,22 +41,16 @@
     <title>BIBLIOTECA GENERAL - PANEL DE ADMIN</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../archivos/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- MetisMenu CSS -->
+    <!-- MetisMenu desplegable lateral CSS -->
     <link href="../bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
 
-    <!-- DataTables CSS -->
-    <link href="../bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.css" rel="stylesheet">
-
-    <!-- DataTables Responsive CSS -->
-    <link href="../bower_components/datatables-responsive/css/dataTables.responsive.css" rel="stylesheet">
-
     <!-- Custom CSS -->
-    <link href="../dist/css/admin.css" rel="stylesheet">
+    <link href="../sources/css/admin.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="../bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../../archivos/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -119,6 +113,9 @@
                                 <li>
                                     <a href="tables.php?tipo=usuario&op=mostrar"><i class="fa fa-edit"></i> Listar/Editar usuario</a>
                                 </li>
+                                <li>
+                                    <a href="historial.php"><i class="fa fa-history"></i> Historial de acceso</a>
+                                </li>
                             </ul>
                             <!-- /.nav-second-level -->
                         </li>
@@ -163,7 +160,7 @@
                         <div class='panel-body'> 
                             <div class='dataTable_wrapper'>
                                 <div class='table-responsive'>
-                                    <table class='table table-striped table-bordered table-hover' id='dataTables-example'>
+                                    <table class='table table-striped table-bordered table-hover' id='tabla-usuario'>
                                         <thead>
                                             <tr>
                                                 <th>ID</th>
@@ -174,7 +171,7 @@
                                                 <th>Email</th>
                                                 <th>Nivel</th>
                                                 <th>Fecha</th>
-                                                <th colspan = '2'>Acción</th>
+                                                <th>Acción</th>
                                             </tr>
                                         </thead>";
                                          while ($a = mysqli_fetch_assoc($result)) {
@@ -189,8 +186,13 @@
                                                 <td> ".$a['email']."</td>
                                                 <td> ".$a['nivel']."</td>
                                                 <td> ".$a['Timestamp']."</td>
-                                                <td class='btn btn-success'><a href='modificarusuario.php?tipo=usuario&op=modificar&id=".$a['id']."'><i class='fa fa-pencil fa-2x'></i></a></td>
-                                                <td class='btn btn-danger'><a href='admin.php?tipo=usuario&op=eliminar&id=".$a['id']."'><i class='fa fa-times-circle fa-2x'></i></a></td>
+                                                <td>
+                                                <div class='btn-group'>
+                                                <button type='button' class='btn btn-success'><a href='modificarusuario.php?tipo=usuario&op=modificar&id=".$a['id']."'><i class='fa fa-pencil fa-2x'></i></a></button>
+
+                                                <button type='button' class='btn btn-danger'><a href='admin.php?tipo=usuario&op=eliminar&id=".$a['id']."'><i class='fa fa-times-circle fa-2x'></i></a></button>
+                                                </div>
+                                                </td>
                                             </tr>
                                         </tbody>";
                                         }
@@ -217,7 +219,7 @@
                             <div class='panel-body'>
                                 <div class='dataTable_wrapper'>
                                     <div class='table-responsive'>
-                                    <table class='table table-striped table-bordered table-hover' id='dataTables-example'>
+                                    <table class='table table-striped table-bordered table-hover' id='tabla-noticia'>
                                         <thead>
                                             <tr>
                                                 <th>ID</th>
@@ -225,7 +227,7 @@
                                                 <th>Cuerpo</th>
                                                 <th>Imagen</th>
                                                 <th>Fecha</th>
-                                                <th colspan = '2'>Acción</th>
+                                                <th>Acción</th>
                                             </tr>
                                         </thead>";
                                         while ($a = mysqli_fetch_assoc($result)){
@@ -236,8 +238,12 @@
                                                         <td> ".$a['cuerpo']."</td>
                                                         <td> ".$a['imagen']."</td>
                                                         <td> ".$a['fecha']."</td>
-                                                        <td class='btn btn-success'><a href='modificarnoticia.php?tipo=noticia&op=modificar&id=".$a['id']."'><i class='fa fa-pencil fa-2x'></i></a></td>
-                                                        <td class='btn btn-danger'><a href='admin.php?tipo=noticia&op=eliminar&id=".$a['id']."'><i class='fa fa-times-circle fa-2x'></i></a></td>
+                                                        <td>
+                                                        <div class='btn-group'>
+                                                        <button type='button' class='btn btn-success'><a href='modificarnoticia.php?tipo=noticia&op=modificar&id=".$a['id']."'><i class='fa fa-pencil fa-2x'></i></a></button>
+                                                        <button type='button' class='btn btn-danger'><a href='admin.php?tipo=noticia&op=eliminar&id=".$a['id']."'><i class='fa fa-times-circle fa-2x'></i></a></button>
+                                                        </div>
+                                                        </td>
                                                     </tr>
                                                 </tbody>";
                                         }
@@ -261,29 +267,17 @@
     </div> <!-- /#wrapper -->
 
     <!-- jQuery -->
-    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../../archivos/js/jquery-2.2.3.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../../archivos/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- Metis Menu Plugin JavaScript -->
+    <!-- Metis Menu Desplegable lateral - Plugin JavaScript -->
     <script src="../bower_components/metisMenu/dist/metisMenu.min.js"></script>
 
-    <!-- DataTables JavaScript -->
-    <script src="../bower_components/DataTables/media/js/jquery.dataTables.min.js"></script>
-    <script src="../bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.min.js"></script>
-
     <!-- Custom Theme JavaScript -->
-    <script src="../dist/js/admin.js"></script>
+    <script src="../sources/js/admin.js"></script>
 
-    <!-- Page-Level Demo Scripts - Tables - Use for reference -->
-    <script>
-    $(document).ready(function() {
-        $('#dataTables-example').DataTable({
-                responsive: true
-        });
-    });
-    </script>
 </body>
 
 </html>

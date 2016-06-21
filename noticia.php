@@ -7,6 +7,8 @@
     session_unset();
     session_destroy();
   }
+  include_once('admin/pages/noticia-detallada.php');
+  include_once('admin/pages/noticia-miniatura.php');
   ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -19,7 +21,8 @@
         <title>BIBLIOTECA GENERAL - UDO SUCRE</title>
 
         <!-- CSS -->
-       <link rel="stylesheet" href="archivos/bootstrap/css/bootstrap.min.css">
+        <link rel="shortcut icon" type="image/x-icon" href="archivos/img/logo.ico"/>
+        <link rel="stylesheet" href="archivos/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="archivos/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="archivos/css/animate.css">
         <link rel="stylesheet" href="archivos/css/main.css">
@@ -84,7 +87,7 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class = "banner">
-                        <img src="archivos/img/banner.png"/>
+                        <img src="archivos/img/banner.png" class="img-responsive"/>
                         </div>
                     </div>
                 </div>
@@ -122,77 +125,19 @@
                 <div class="col-md-9 col-sm-7">
                     <div class="row">
                          <div class="col-sm-12 col-md-12">
-                            <div class="noticia-container">
-                                <div class="triangle">
-                                    <img src="archivos/img/noticia/1.jpg" class="img-responsive">
-                                    <div class="date-overlay">
-                                       <span class="uppercase"><a href="#">17 <br><small>May</small></a></span>
-                                   </div>
-                                </div>
-                                <div class="post-content justify">
-                                    <h2 class="post-title">Título de la noticia</h2>
-                                    <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber</p>
-                                    <a href="#" class="open-more">Ver más</a>
-                                </div>
+                            <div id="results">
+                            <?php echo $contenido_noticia;?>
+                            <?php echo $paginacion;?>
                             </div>
                         </div>
                     </div>
-                    <div class="noticia-pagination">
-                        <ul class="pagination">
-                          <li><a href="#"><i class="fa fa-chevron-left"></i></a></li>
-                          <li class="active"><a href="#">1</a></li>
-                          <li><a href="#">2</a></li>
-                          <li><a href="#">3</a></li>
-                          <li><a href="#">4</a></li>
-                          <li><a href="#">5</a></li>
-                          <li><a href="#">6</a></li>
-                          <li><a href="#">7</a></li>
-                          <li><a href="#">8</a></li>
-                          <li><a href="#">9</a></li>
-                          <li><a href="#"><i class="fa fa-chevron-right"></i></a></li>
-                        </ul>
-                    </div>
+
                  </div>
                 <div class="col-md-3 col-sm-5">
                     <div class="sidebar">
                         <div class="sidebar-item">
                             <h3>Más noticias</h3>
-                            <div class="media">
-                                <div class="pull-left">
-                                    <a href="#"><img src="archivos/img/noticia/mini1.jpg" alt=""></a>
-                                </div>
-                                <div class="media-body justify">
-                                    <h5><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit,</a></h5>
-                                    <p>17 May 2016</p>
-                                </div>
-                            </div>
-                            <div class="media">
-                                <div class="pull-left">
-                                    <a href="#"><img src="archivos/img/noticia/mini1.jpg" alt=""></a>
-                                </div>
-                                <div class="media-body justify">
-                                    <h5><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit,</a></h5>
-                                    <p>17 Mayo 2016</p>
-                                </div>
-                            </div>
-                            <div class="media">
-                                <div class="pull-left">
-                                    <a href="#"><img src="archivos/img/noticia/mini1.jpg" alt=""></a>
-                                </div>
-                                <div class="media-body justify">
-                                    <h5><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit,</a></h5>
-                                    <p>17 Mayo 2016</p>
-                                </div>
-                            </div>
-                            <div class="media">
-                                <div class="pull-left">
-                                    <a href="#"><img src="archivos/img/noticia/mini1.jpg" alt=""></a>
-                                </div>
-                                <div class="media-body justify">
-                                    <h5><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit,</a></h5>
-                                    <p>17 Mayo 2016</p>
-                                </div>
-                            </div>
+                               <?php echo $miniatura;?>
                         </div>
                     </div>
                 </div>
@@ -236,7 +181,7 @@
         </footer>
 
         <!-- Javascript -->
-        <script src="archivos/js/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript" src="archivos/js/jquery-2.2.3.min.js"></script>
         <script src="archivos/bootstrap/js/bootstrap.min.js"></script>
         <script src="archivos/js/bootstrap-hover-dropdown.min.js"></script>
         <script src="archivos/js/wow.min.js"></script>

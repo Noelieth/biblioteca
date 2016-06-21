@@ -2,30 +2,40 @@
   session_start();
  ?>
  <?php
-
+  include_once("admin/pages/sessions/config.php");
+  include_once("admin/pages/sessions/logging.php");
   if (isset($_GET['logout'])) {
+    write_mysql_log("ha cerrado sesión", $db);
+
     session_unset();
-    session_destroy();
+    session_destroy();  
   }
+
+  include_once('admin/pages/noticia-reciente.php');
+  include_once('admin/pages/noticia-carousel.php');
   ?>
+
 <!DOCTYPE html>
 <html lang="es">
 
     <head>
 
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>BIBLIOTECA GENERAL - UDO SUCRE</title>
 
         <!-- CSS -->
+        <link rel="shortcut icon" type="image/x-icon" href="archivos/img/logo.ico"/>
         <link rel="stylesheet" href="archivos/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="archivos/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="archivos/css/animate.css">
         <link rel="stylesheet" href="archivos/flexslider/flexslider.css">
         <link rel="stylesheet" href="archivos/css/main.css">
         <link rel="stylesheet" href="archivos/css/media-queries.css">
-        <link rel="stylesheet" href="archivos/css/breaking-news.css"/>
+        <meta name="author" content="Noelieth Longart">
+        <!-- Modernizer Script para viejos navegadores -->
+        <script src="archivos/js/modernizr-2.6.2.min.js"></script>
 
     </head>
 
@@ -104,7 +114,7 @@
         <!-- banner -->
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
                         <div class = "banner">
                         <img src="archivos/img/banner.png"/>
                         </div>
@@ -114,19 +124,12 @@
         <!-- noticias recientes -->
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12">
-                        <div class = "breaking-news">
-                            <div id="breaking-news-container">
-                              <div id="breaking-news-colour" class="slideup animated">
-
-                              </div>
-                               <div class="breaking-news-title delay-animated">
-                                  <p>NOTICIA</p>
-                               </div>
-                                <a class="breaking-news-headline delay-animated2 fadein marquee">
-                                  Lorem ipsu sit amet, lorem ipsu sit amet lorem ipsu sit amet lorem ipsu sit amet lorem ipsu sit amet
-                                </a>
-                            </div>
+                    <div class="col-sm-12 col-md-12">
+                        <div class="news gris">
+                          <span><p>Noticias</p></span>
+                          <ul>
+                            <?php echo $recents;?>
+                          </ul>
                         </div>
                     </div>
                 </div>
@@ -137,42 +140,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-9 col-md-9 slider">
-                        <div class="flexslider">
+                        <div class="flexslider" id="slider-noticias">
                             <ul class="slides">
-                                <li data-thumb="archivos/img/slider/1.jpg">
-                                    <a href="noticia.php">
-                                        <img src="archivos/img/slider/1.jpg">
-                                    </a>
-                                    <div class="flex-caption">
-                                    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-                                    </div>
-                                </li>
-                                <li data-thumb="archivos/img/slider/2.jpg">
-                                    <a href="#">
-                                        <img src="archivos/img/slider/2.jpg">
-                                    </a>
-                                    <div class="flex-caption">
-                                    	Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-                                    	lobortis nisl ut aliquip ex ea commodo consequat.
-                                    </div>
-                                </li>
-                                <li data-thumb="archivos/img/slider/3.jpg">
-                                    <a href="#">
-                                        <img src="archivos/img/slider/3.jpg">
-                                    </a>
-                                    <div class="flex-caption">
-                                    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-                                    </div>
-                                </li>
-                                <li data-thumb="archivos/img/slider/4.jpg">
-                                    <a href="#">
-                                        <img src="archivos/img/slider/4.jpg">
-                                    </a>
-                                    <div class="flex-caption">
-                                    	Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-                                    	lobortis nisl ut aliquip ex ea commodo consequat.
-                                    </div>
-                                </li>
+                                <?php echo $slides; ?> 
                             </ul>
                         </div>
                     </div>
@@ -193,7 +163,7 @@
 
                         <!-- plugin de facebook -->
                         <div class="col-sm-3 col-md-3">
-                          <div class="fb-page" data-href="https://www.facebook.com/BibliotecaGeneralSucre" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false" data-height="230">
+                          <div class="fb-page" data-href="https://www.facebook.com/BibliotecaGeneralSucre" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false" data-height="250">
                               <div class="fb-xfbml-parse-ignore">
                                   <blockquote cite="https://www.facebook.com/BibliotecaGeneralSucre">
                                       <a href="https://www.facebook.com/BibliotecaGeneralSucre">Biblioteca General Núcleo Sucre</a>
@@ -241,7 +211,7 @@
         </footer>
 
         <!-- Javascript -->
-        <script src="archivos/js/jquery-1.11.1.min.js"></script>
+        <script src="archivos/js/jquery-2.2.3.min.js"></script>
         <script src="archivos/bootstrap/js/bootstrap.min.js"></script>
         <script src="archivos/js/bootstrap-hover-dropdown.min.js"></script>
         <script src="archivos/js/wow.min.js"></script>

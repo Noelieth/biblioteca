@@ -19,7 +19,8 @@
         <title>BIBLIOTECA GENERAL - UDO SUCRE</title>
 
         <!-- CSS -->
-       <link rel="stylesheet" href="archivos/bootstrap/css/bootstrap.min.css">
+        <link rel="shortcut icon" type="image/x-icon" href="archivos/img/logo.ico"/>
+        <link rel="stylesheet" href="archivos/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="archivos/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="archivos/css/animate.css">
         <link rel="stylesheet" href="archivos/css/main.css">
@@ -128,7 +129,7 @@
         <div class="contact-us-container">
         	<div class="container">
 	            <div class="row">
-	                <div class="col-sm-12 col-md-12 col-lg-10 contact-address">
+	                <div class="col-sm-12 col-md-12 col-lg-10 contact-video">
 	                    <h3>Nuestra ubicación</h3>
 	                    <div class="map">
                             <iframe width="640" height="295" src="https://www.youtube.com/embed/fzI9xcfYmCE" frameborder="0" allowfullscreen></iframe>
@@ -225,7 +226,7 @@
         </footer>
 
         <!-- Javascript -->
-        <script src="archivos/js/jquery-1.11.1.min.js"></script>
+        <script src="archivos/js/jquery-2.2.3.min.js"></script>
         <script src="archivos/bootstrap/js/bootstrap.min.js"></script>
         <script src="archivos/js/bootstrap-hover-dropdown.min.js"></script>
         <script src="archivos/js/wow.min.js"></script>

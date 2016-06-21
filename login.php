@@ -1,10 +1,12 @@
 <?php
   session_start();
+
  ?>
 <?php
 
   if (! empty($_POST)) {
     include_once("conexion.php");
+
     $usuario = $_POST['usuario'];
     $password = $_POST['password'];
 
@@ -20,7 +22,7 @@
         $_SESSION['nivel'] = $a['nivel'];
       }
 
-      header("location: index.php");
+      header("location: admin/pages/admin.php?acceder=true");
     }
     else{
       echo "false";
@@ -28,6 +30,8 @@
     }
   }
   ?>
+ 
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -39,6 +43,7 @@
         <title>BIBLIOTECA GENERAL - UDO SUCRE</title>
 
         <!-- CSS -->
+        <link rel="shortcut icon" type="image/x-icon" href="archivos/img/logo.ico"/>
         <link rel="stylesheet" href="archivos/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="archivos/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="archivos/css/animate.css">
@@ -151,7 +156,7 @@
         </div>
 
        <!-- pie de pagina -->
-        <footer>
+        <footer class="affix">
             <div class="container">
                 <div class="row">
                   <div class="col-sm-2 col-md-2 footer-copyright wow fadeIn">
@@ -175,7 +180,7 @@
         </footer>
 
         <!-- Javascript -->
-        <script src="archivos/js/jquery-1.11.1.min.js"></script>
+        <script src="archivos/js/jquery-2.2.3.min.js"></script>
         <script src="archivos/bootstrap/js/bootstrap.min.js"></script>
         <script src="archivos/js/bootstrap-hover-dropdown.min.js"></script>
         <script src="archivos/js/wow.min.js"></script>

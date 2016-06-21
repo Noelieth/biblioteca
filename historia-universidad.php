@@ -19,6 +19,7 @@
         <title>BIBLIOTECA GENERAL - UDO SUCRE</title>
 
         <!-- CSS -->
+        <link rel="shortcut icon" type="image/x-icon" href="archivos/img/logo.ico"/>
         <link rel="stylesheet" href="archivos/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="archivos/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="archivos/css/animate.css">
@@ -249,7 +250,7 @@
         </footer>
 
         <!-- Javascript -->
-        <script src="archivos/js/jquery-1.11.1.min.js"></script>
+        <script src="archivos/js/jquery-2.2.3.min.js"></script>
         <script src="archivos/bootstrap/js/bootstrap.min.js"></script>
         <script src="archivos/js/bootstrap-hover-dropdown.min.js"></script>
         <script src="archivos/js/wow.min.js"></script>

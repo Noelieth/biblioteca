@@ -108,6 +108,7 @@ a.big-link-2:active {
 }
 .ruta li a, .ruta li{
     color: #fff;
+    font-size: 14px;
 }
 
 /*////////////////////// TITULO /////////////////////*/
@@ -154,6 +155,9 @@ div.lateral-der{
 /*plugin de facebook*/
 .fb-page{
     margin-top: 5px;
+}
+.fb-page blockquote{
+  height: 230px;
 }
 a.big-link-3 {
 	display: inline-block;
@@ -247,19 +251,77 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #074066
 /*banner*/
 .banner{
    width: 100%;
-   height: 150px;
-   margin-top: 5%;
-   margin-bottom: 20px;
-   /*background-color: #4285f4;*/
+   height: 100%;
+   margin-top: 4%;
+   margin-bottom: -2px;
+   background-color: #131b49;
+}
+.banner img{
+   background-size:cover; 
+   width: 100%;
+   height: 100%;
+   max-height: 180px;
 }
 
-/*breaking news*/
-.breaking-news{
-    width: 100%;
-    height: 50px;
-    background-color: #f8f8f8;
-
+/*noticias recientes*/
+@keyframes ticker {
+  0%   {margin-top: 5px}
+  25%  {margin-top: -30px}
+  50%  {margin-top: -60px}
+  75%  {margin-top: -90px}
+  100% {margin-top: 0}
 }
+
+.news {
+  width: 100%;
+  height: 40px;
+  overflow: hidden;
+  -webkit-user-select: none
+} 
+
+.news span {
+  color: #fff;
+  display: block;
+  height: 40px;
+  width: 180px;
+  position: absolute;
+  top: .2px;
+  padding: 5px;
+  font: 16px 'Century Gothic', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-user-select: none;
+  cursor: pointer;
+  font-weight:bold;
+  text-transform: uppercase;
+  z-index: 3;
+}
+
+.news span p{
+  padding-top: 2%;
+}
+
+.news ul {
+  float: left;
+  padding-left: 22%;
+  animation: ticker 10s cubic-bezier(1, 0, .5, 0) infinite;
+  -webkit-user-select: none;
+}
+
+.news ul li {text-align: left; line-height: 32px; list-style: none }
+
+.news ul li a {
+  color: #555;
+  text-decoration: none;
+  font: 15px 'Century Gothic',Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-user-select: none
+}
+
+.news ul:hover { animation-play-state: paused }
+.news span:hover+ul { animation-play-state: paused }
+
+.gris { background: #f3f3f3 }
+.gris span { background: #074066 }
 
 /***** slider noticas *****/
 
@@ -276,7 +338,6 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #074066
     margin-top: 20px;
     border: 5px solid #fff;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
-    /*width: 90%;*/
 }
 
 .flexslider .slides > li {
@@ -305,6 +366,7 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #074066
 	background: #074066;
 	color: #fff;
 	text-shadow: none;
+  border-radius: 4px;
 }
 
 .flex-direction-nav a:before { font-size: 26px; }
@@ -319,20 +381,31 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #074066
 }
 .pagination li a{
   color: #000;
+  font-size: 14px;
   padding: 5px 10px;
   border-radius: 4px;
-  border: 1px solid #fff;
+  border: 1px solid #f5f5f5;
   background-color: #f5f5f5;
 }
 .pagination li a:hover,
 .pagination .active a, 
-.pagination a:active, 
+.pagination a:active,
+.pagination li.active,
+.pagination li.first.active, 
 .pagination .active a:hover,
 .pagination .active a:focus, 
 .pagination a:focus {
   background: transparent;
-  border-color: #3498db;
+  border-radius: 4px;
+  border: 1px solid #3498db;
+  padding: 5px 10px;
   color: #3498db;
+  font-size: 14px;
+}
+.noticia-pagination {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 50px;
 }
 /* sidebar - más noticias*/
 .sidebar h3 {
@@ -385,6 +458,11 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #074066
 .sidebar-item .media .media-body p {
   color: #b4b4b4;
   font-size: 12px;
+}
+
+.sidebar-item .media a img{
+  width: 60px;
+  height: 40px;
 }
 /*contenedor noticia*/
 #noticia{
@@ -479,25 +557,20 @@ a.open-more:hover{
   animation: fadeInLeft 400ms;
 }
 .noticia-container .date-overlay span a{
-  margin-left: -35px;
+  margin-left: -40px;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 35px;
   line-height: 18px;
   position: absolute;
   top: 50px;
 }
 .noticia-container .date-overlay span a small{
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 300;
 }
 .noticia-container .date-overlay span:before{
   border-color: transparent;
   border-width: 0;
-}
-.noticia-pagination {
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 55px;
 }
 /***** presentacion  *****/
 
@@ -1236,7 +1309,6 @@ a.read-more:hover{
 
 .login-container {
     margin-top: 20px;
-    padding-bottom: 50px;
     text-align: left;
     background-color: #fafafa;
 }
@@ -1281,6 +1353,12 @@ a.read-more:hover{
 .login-form label { font-size: 13px; font-weight: 400; }
 .login-form button { margin-top: 5px; padding: 0 45px; border-radius:4px;width: 90%;height: 40px;}
 
+  /*mensaje de error en el formulario*/
+.form-container p{
+  color: #ea4335;
+  font-weight: bold;
+  font-size: 14px;
+}
 /*contacto*/
 .contact-us-container {
     margin-top: 5px;
@@ -1300,7 +1378,7 @@ a.read-more:hover{
     color: #fff;
 }
 .contact-address {
-	padding-bottom: 5px;
+	  padding-bottom: 5px;
     padding-top: 5px;
 }
 .address, .address2{
@@ -1314,9 +1392,9 @@ a.read-more:hover{
  .address p strong{
     font-size: 14px;
  }
-.contact-address .map {
+.contact-video{width: 100%;}
+.contact-video .map {
     margin: 20px 0 15px 0;
-    height: 300px;
     border: 5px solid #f8f8f8;
 }
 .map iframe{
@@ -1347,8 +1425,11 @@ a.read-more:hover{
 footer {
     margin: 0 auto;
     padding-bottom: 10px;
+    width: 100%;
     background: #f8f8f8 url(../img/pattern.jpg) left top repeat;
-    -moz-box-shadow: 0 5px 15px 0 rgba(0,0,0,.05) inset; -webkit-box-shadow: 0 5px 15px 0 rgba(0,0,0,.05) inset; box-shadow: 0 5px 15px 0 rgba(0,0,0,.05) inset;
+    -moz-box-shadow: 0 5px 15px 0 rgba(0,0,0,.05) inset; 
+    -webkit-box-shadow: 0 5px 15px 0 rgba(0,0,0,.05) inset; 
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,.05) inset;
 }
 
 .footer-copyright {

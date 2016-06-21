@@ -13,17 +13,18 @@ if ( ! empty( $_POST ) ) {
 
     include_once("../../conexion.php");
     mysqli_query("SET NAMES 'utf8'");
-    $user_path = $_POST["nombre"];
 
-    // Para Linux
-    //mkdir('/var/www/biblioteca/archivos/subida/'.$user_path);
-    //chmod('/var/www/biblioteca/archivos/subida/'.$user_path, 0777);
-    /*move_uploaded_file($_FILES['imagen']['tmp_name'], '/var/www/biblioteca/subida/'.$user_path.'/'.$_FILES['imagen']['name']);*/
+    // Linux
+    //$user_path = $_POST["nombre"];
+    //mkdir('/var/www/biblioteca/archivos/subida');
 
-    //$image_path = "subida/".$user_path.'/'.$_FILES['imagen']['name'];
+    // $image_path = "subida/".$_FILES['imagen']['name'];
+    // chmod('/var/www/biblioteca/archivos/'.$image_path, 0777);
+    // move_uploaded_file($_FILES['imagen']['tmp_name'], '/var/www/biblioteca/'.$image_path);
 
-    move_uploaded_file($_FILES['imagen']['tmp_name'],'C:\wamp\www\biblioteca\archivos\subida\\'.$_FILES['imagen']['name']);
+    //Windows
     $image_path = $_FILES['imagen']['name'];
+    move_uploaded_file($_FILES['imagen']['tmp_name'],'C:\wamp\www\biblioteca\archivos\subida\\'.$image_path);
 
   // Insertar
   $sql = "INSERT INTO noticia ( titulo, cuerpo, imagen )
@@ -62,16 +63,16 @@ if ( ! empty( $_POST ) ) {
     <title>BIBLIOTECA GENERAL - PANEL DE ADMIN</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../archivos/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- MetisMenu CSS -->
     <link href="../bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="../dist/css/admin.css" rel="stylesheet">
+    <link href="../sources/css/admin.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="../bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../../archivos/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -113,7 +114,7 @@ if ( ! empty( $_POST ) ) {
                 else{
                     header("location:../../login.php");
                 }
-      ?>
+            ?>
     </ul>
             <!-- /.navbar-top-links -->
 
@@ -133,14 +134,17 @@ if ( ! empty( $_POST ) ) {
                                 <li>
                                     <a href="tables.php?tipo=usuario&op=mostrar"><i class="fa fa-edit"></i> Listar/Editar usuario</a>
                                 </li>
+                                <li>
+                                    <a href="historial.php"><i class="fa fa-history"></i> Historial de acceso</a>
+                                </li>
                             </ul>
                             <!-- /.nav-second-level -->
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-newspaper-o fa-fw"></i> Noticias<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
-                                <li>
-                                    <a href="#"><i class="fa fa-plus-circle"></i> Agregar noticia</a>
+                                <li class="active">
+                                    <a href="publicarnoticia.php"><i class="fa fa-plus-circle"></i> Agregar noticia</a>
                                 </li>
                                 <li>
                                     <a href="tables.php?tipo=noticia&op=mostrar"><i class="fa fa-edit"></i> Listar/Editar noticia</a>
@@ -219,15 +223,15 @@ if ( ! empty( $_POST ) ) {
     <!-- /#wrapper -->
 
     <!-- jQuery -->
-    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../../archivos/js/jquery-2.2.3.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../../archivos/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Metis Menu Plugin JavaScript -->
     <script src="../bower_components/metisMenu/dist/metisMenu.min.js"></script>
     <!-- Custom Theme JavaScript -->
-    <script src="../dist/js/admin.js"></script>
+    <script src="../sources/js/admin.js"></script>
 
 </body>
 

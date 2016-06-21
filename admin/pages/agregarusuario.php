@@ -54,16 +54,16 @@ if ( ! empty( $_POST ) ) {
     <title>BIBLIOTECA GENERAL - PANEL DE ADMIN</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../archivos/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- MetisMenu CSS -->
     <link href="../bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="../dist/css/admin.css" rel="stylesheet">
+    <link href="../sources/css/admin.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="../bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../../archivos/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -119,11 +119,14 @@ if ( ! empty( $_POST ) ) {
                         <li>
                             <a href="#"><i class="fa fa-user fa-fw"></i> Usuarios<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
-                                <li>
-                                    <a href="#"><i class="fa fa-plus-circle"></i> Agregar usuario</a>
+                                <li class="active">
+                                    <a href="agregarusuario.php"><i class="fa fa-plus-circle"></i> Agregar usuario</a>
                                 </li>
                                 <li>
                                     <a href="tables.php?tipo=usuario&op=mostrar"><i class="fa fa-edit"></i> Listar/Editar usuario</a>
+                                </li>
+                                <li>
+                                    <a href="historial.php"><i class="fa fa-history"></i> Historial de acceso</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
@@ -163,7 +166,7 @@ if ( ! empty( $_POST ) ) {
                     <div class="panel panel-danger">
                         <div class="panel-heading">Nota</div>
                         <div class="panel-body">
-                            <p>Si coloca un usuario con "nivel" 1, este será administrador y podrá hacer modificaciones.</p>
+                            <p>El usuario "nivel 1", será administrador de este portal web.</p>
                         </div>
                     </div>
                 </div>
@@ -230,15 +233,15 @@ if ( ! empty( $_POST ) ) {
     <!-- /#wrapper -->
 
     <!-- jQuery -->
-    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../../archivos/js/jquery-2.2.3.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../../archivos/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Metis Menu Plugin JavaScript -->
     <script src="../bower_components/metisMenu/dist/metisMenu.min.js"></script>
     <!-- Custom Theme JavaScript -->
-    <script src="../dist/js/admin.js"></script>
+    <script src="../sources/js/admin.js"></script>
 
 </body>
 

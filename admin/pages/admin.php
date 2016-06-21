@@ -1,6 +1,7 @@
 <?php 
   session_start();
  ?>
+ 
  <?php
   include_once("../../conexion.php");
   $tipo = isset($_GET['tipo']);
@@ -22,11 +23,18 @@
     echo "Elemento Borrado. <br>";
   }
   else{
-    $sql = "SELECT * from usuaio";
+    $sql = "SELECT * from usuario";
   }
   $result = $mysqli->query($sql);
   $mysqli->close();
  ?>
+ <?php 
+  include_once("sessions/config.php");
+  include_once("sessions/logging.php");
+  if (isset($_GET['acceder']) && isset($_SESSION['usuario'])) {
+    write_mysql_log("ha iniciado sesión", $db);
+  }
+  ?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -41,16 +49,16 @@
     <title>BIBLIOTECA GENERAL - PANEL DE ADMIN</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../archivos/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- MetisMenu CSS -->
     <link href="../bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="../dist/css/admin.css" rel="stylesheet">
+    <link href="../sources/css/admin.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="../bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../../archivos/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -95,7 +103,7 @@
             <div class="navbar-default sidebar" role="navigation">
                 <div class="sidebar-nav navbar-collapse">
                     <ul class="nav" id="side-menu">
-                        <li>
+                        <li class="active">
                             <a href="admin.php"><i class="fa fa-th-large fa-fw"></i> Panel</a>
                         </li>
                         <li>
@@ -106,6 +114,9 @@
                                 </li>
                                 <li>
                                     <a href="tables.php?tipo=usuario&op=mostrar"><i class="fa fa-edit"></i> Listar/Editar usuario</a>
+                                </li>
+                                <li>
+                                    <a href="historial.php"><i class="fa fa-history"></i> Historial de acceso</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
@@ -135,7 +146,7 @@
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h3 class="page-header">Inicio</h3>
+                    <h3 class="page-header"><i class="fa fa-th-large fa-fw"></i> Inicio</h3>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
@@ -225,6 +236,9 @@
                         </a>
                     </div>
                 </div>
+                <div class = "col-lg-12 col-md-12">
+                    <a href="historial.php" class="historial"><button type="button" class="btn btn-default btn-lg btn-block"><i class = "fa fa-history"></i> Historial de acceso de usuarios</button></a>
+                </div>
             </div>
         </div>
         <!-- /#page-wrapper -->
@@ -232,15 +246,15 @@
     <!-- /#wrapper -->
 
     <!-- jQuery -->
-    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../../archivos/js/jquery-2.2.3.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../../archivos/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Metis Menu Plugin JavaScript -->
     <script src="../bower_components/metisMenu/dist/metisMenu.min.js"></script>
     <!-- Custom Theme JavaScript -->
-    <script src="../dist/js/admin.js"></script>
+    <script src="../sources/js/admin.js"></script>
 
 </body>
  <?php

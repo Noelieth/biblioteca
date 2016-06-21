@@ -19,6 +19,7 @@
         <title>BIBLIOTECA GENERAL - UDO SUCRE</title>
 
         <!-- CSS -->
+        <link rel="shortcut icon" type="image/x-icon" href="archivos/img/logo.ico"/>
         <link rel="stylesheet" href="archivos/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="archivos/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="archivos/css/animate.css">
@@ -488,12 +489,12 @@
                     <li class="db-item venezuela">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/30_venezuela.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://riuc.bc.uc.edu.ve/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
                             </div>
-                            <h5>Repositorio Institucional UDO.</h5>        
+                            <h5>RIUC.</h5>        
                         </div>         
                     </li><!--/.bd-item-->
                     <li class="db-item venezuela">
@@ -746,13 +747,13 @@
                                     <a class="preview btn btn-primary" href="http://cdigital.uv.mx/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
                             </div>
-                            <h5>UREK.</h5>        
+                            <h5>Crea DIGITAL.</h5>        
                         </div>         
                     </li><!--/.bd-item-->
                     <li class="db-item mexico">
                         <div class="item-inner">
                             <div class="db-image">
-                                <img src="archivos/img/repositorios/item.png">
+                                <img src="archivos/img/repositorios/54_mexico.png">
                                 <div class="overlay">
                                     <a class="preview btn btn-primary" href="http://dgsa.uaeh.edu.mx:8080/bibliotecadigital/"><i class="fa fa-link"></i> Visitar</a>
                                 </div>   
@@ -1632,7 +1633,7 @@
         </footer>
 
         <!-- Javascript -->
-        <script src="archivos/js/jquery-1.11.1.min.js"></script>
+        <script src="archivos/js/jquery-2.2.3.min.js"></script>
         <script src="archivos/bootstrap/js/bootstrap.min.js"></script>
         <script src="archivos/js/jquery.isotope.min.js"></script>
         <script src="archivos/js/bootstrap-hover-dropdown.min.js"></script>
