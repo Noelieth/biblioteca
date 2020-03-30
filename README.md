@@ -1,2 +1,2 @@
 # webs news portal
-Web news portal for UDO
+Web news portal to UDO
