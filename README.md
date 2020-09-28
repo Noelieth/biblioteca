@@ -34,7 +34,7 @@ localhost/biblioteca
 * [MySQL](https://dev.mysql.com/doc/) - relational database
 * [Bootstrap 3](https://getbootstrap.com/) - a css framework
 
-## Autores ✒️
+## Author ✒️
 
 * **Noelieth Longart** - [noeliethlongart](https://www.behance.net/noeliethlongart)
 
